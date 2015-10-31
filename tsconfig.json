@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "files": [
+    "main/app.tsx",
+    "main/constants.ts",
+    "main/footer.tsx",
+    "main/interfaces.d.ts",
+    "main/todoModel.ts",
+    "main/utils.ts",
+    "main/todoItem.tsx",
+    "typings/tsd.d.ts"
+  ]
+}
